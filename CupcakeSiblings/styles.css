@@ -1,0 +1,69 @@
+.bg-danger{
+    background-color: #ab413b !important;
+}
+
+.bg-secondary{
+    background-color: #F5F0F6 !important;
+}
+.nav-link:hover{
+    background-color: #dc918d;
+}
+.aboutUs{
+    background-color: #dc918d;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    padding: 40px;
+}
+
+.snacksbar{
+    background-color: #902923;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    height: max-content;
+
+}
+.snacks{
+    width: 300px;
+    margin: 10px;
+}
+
+.shakesbar{
+    background-color: #902923;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    height: max-content;
+}
+
+.table td {
+    text-align: center;
+    } 
+
+.table tr {
+    text-align: center;
+} 
+
+.carousel .carousel-inner{
+    height:500px
+}
+.carousel-inner .carousel-item img{
+    min-height:200px;
+    object-fit:cover
+}
+
+@media(max-width:768px){
+    .carousel .carousel-inner{
+        height:auto
+    }
+}
+
+.contactUs{
+    background-color: #a04944;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    padding: 40px;
+    width: 70%;
+}
